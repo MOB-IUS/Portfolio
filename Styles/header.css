@@ -5,30 +5,73 @@
   justify-content: center;
 
   position: fixed;
-  top: 0; right: 5px; left: 5px;
+  top: 0; left:0; right: 0;
   height: 55px;
 
   background-color: white;
 }
 
+.header-frame-line {
+  
+}
+
 .header {
   width: 1174px;
   height: 40px;
-
-  position: absolute;
-  top: 12px; bottom: 2px;
+  margin-top: 15px;
   
-  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Header name and position */
+.header-left {
+  width: 450px;
+  height: 100%;
+  margin-left: 3px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-name {
+  width: 38%;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.header-position {
+  width: 54%;
+  height: 100%;
+}
+
+/* Header search bar */
+.header-right {
+  width: 300px;
+  height: 100%;
+  margin-right: 3px;
+
+  display: flex;
+  flex-direction: row;
 }
 
 /* Header text style */
 /* Text fonts: Kumar One, Scope One */
-/*
-.header-name {
+.header-name-text {
   font-family: Kumar One;
+  font-size: 25px;
+  text-align: left;
+  color: darkslateblue;
+
+  margin: 0; margin-top: 7px;
 }
 
-.header-position {
+.header-position-text {
   font-family: Scope One;
+  font-size: 19px;
+  text-align: left;
+
+  margin: 0; margin-top: 18px;
 }
-*/
