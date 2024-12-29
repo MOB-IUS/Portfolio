@@ -1,4 +1,7 @@
 /* Header frame styles */
+
+
+/* Header frame styles */
 .header-frame {
   display: flex;
   flex-direction: row;
@@ -11,14 +14,15 @@
   background-color: white;
 }
 
-.header-frame-line {
-  
-}
-
 .header {
-  width: 1174px;
+  width: 1200px;
   height: 40px;
   margin-top: 15px;
+
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-color: white;
+  border-bottom-color: rgb(120, 120, 120);
   
   display: flex;
   flex-direction: row;
@@ -29,7 +33,7 @@
 .header-left {
   width: 450px;
   height: 100%;
-  margin-left: 5px;
+  margin-left: 18px;
   
   display: flex;
   flex-direction: row;
@@ -39,11 +43,11 @@
 .header-name {
   width: 170px;
   height: 100%;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 .header-position {
-  width: 260px;
+  width: 250px;
   height: 100%;
 }
 
@@ -51,7 +55,7 @@
 .header-right {
   width: 300px;
   height: 100%;
-  margin-right: 3px;
+  margin-right: 16px;
 
   display: flex;
   flex-direction: row;
