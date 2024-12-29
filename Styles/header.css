@@ -1,8 +1,34 @@
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-    position: fixed;
-    height: 55px;
+/* Header frame styles */
+.header-frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  position: fixed;
+  top: 0; right: 5px; left: 5px;
+  height: 55px;
+
+  background-color: white;
 }
+
+.header {
+  width: 1174px;
+  height: 40px;
+
+  position: absolute;
+  top: 12px; bottom: 2px;
+  
+  background-color: lightblue;
+}
+
+/* Header text style */
+/* Text fonts: Kumar One, Scope One */
+/*
+.header-name {
+  font-family: Kumar One;
+}
+
+.header-position {
+  font-family: Scope One;
+}
+*/
