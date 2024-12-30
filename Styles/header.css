@@ -59,7 +59,6 @@
 }
 
 /* Header text style */
-/* Text fonts: Kumar One, Scope One */
 .header-name-text {
   font-family: Kumar One;
   font-size: 25px;
@@ -70,7 +69,6 @@
 }
 
 .header-position-text {
-  font-family: Scope One;
   font-size: 19px;
   text-align: left;
 
