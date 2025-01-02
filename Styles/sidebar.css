@@ -58,16 +58,24 @@
 .sidebar-nav-option {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   
   width: 80%;
   height: 35px;
-  margin: auto; margin-top: 0; margin-bottom: 0;
+  /*margin: auto; margin-top: 0; margin-bottom: 0;*/
 }
 
 .sidebar-text {
   font-size: 17px;
   text-align: left;
+  margin: 0; margin-left: 13px; margin-top: 5.5px;
+}
+
+.sidebar-underline {
+  width: 80px;
+  height: 1em;
+  margin: 0;
+  
+  background-color: orange;
 }
 
 /* Sidebar Out Links Styles (Lower) */
