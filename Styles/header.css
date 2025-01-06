@@ -31,7 +31,7 @@
 
 /* Header Name and Position */
 .header-left {
-  width: 28.125rem;
+  width: 40rem;
   height: 100%;
   margin-left: 1.125rem;
   
@@ -65,16 +65,16 @@
 /* Header Text Style */
 .header-name-text {
   font-family: Kumar One;
-  font-size: 1.5625rem;
+  font-size: 2.125rem;
   text-align: left;
   color: darkslateblue;
 
-  margin: 0; margin-top: 0.4375rem;
+  margin: 0; margin-top: 0;
 }
 
 .header-position-text {
-  font-size: 1.1875rem;
+  font-size: 1.25rem;
   text-align: left;
 
-  margin: 0; margin-top: 1.125rem;
+  margin: 0; margin-top: 1.25rem;
 }
