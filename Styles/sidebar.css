@@ -60,7 +60,7 @@
 
 .sidebar-nav-option {
   width: 80%;
-  height: 35px;
+  height: 2.1875rem;
   margin: 0; margin-left: 1rem;
   
   background-color: white;
@@ -75,7 +75,6 @@
 }
 
 .sidebar-text-selected {
-  font-size: 1.125rem;
   font-weight: 600;
   
   color: dodgerblue;
