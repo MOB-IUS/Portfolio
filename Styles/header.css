@@ -43,7 +43,7 @@
 }
 
 .header-name {
-  width: 40%;
+  width: 42%;
   height: 100%;
 }
 
@@ -74,7 +74,8 @@
 
 .header-position-text {
   font-size: 1.25rem;
+  font-weight: 300;
   text-align: left;
 
-  margin: 0; margin-top: 1.25rem;
+  margin: 0; margin-top: 1.125rem;
 }
