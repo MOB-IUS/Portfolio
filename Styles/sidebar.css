@@ -68,7 +68,7 @@
 
 .sidebar-text, .sidebar-text-selected {
   font-size: 1.125rem;
-  font-weight: 400;
+  font-weight: 300;
   text-align: left;
   
   background-color: white;
@@ -77,8 +77,12 @@
 .sidebar-text-selected {
   font-weight: 600;
   
-  color: skyblue;
+  color: black;
 }
+
+/*.sidebar-selected-underline {*/
+/*  */
+/*}*/
 
 /* Sidebar Out Links Styles (Lower) */
 .sidebar-out-links {
