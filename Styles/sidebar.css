@@ -15,6 +15,8 @@
   
   width: 64.5rem;
   height: 100%;
+  
+  background-color: white;
 }
 
 .sidebar {
@@ -93,7 +95,7 @@
 
 .sidebar-selected-underline-home {
   width: 3.875rem;
-  opacity: 100%;
+  opacity: 0;
 }
 
 .sidebar-selected-underline-projects {
@@ -111,7 +113,7 @@
   width: 100%;
   height: 15%;
 
-  background-color: lightblue;
+  background-color: white;
 }
 
 .sidebar-link-icon {

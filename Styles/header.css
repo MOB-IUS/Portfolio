@@ -64,6 +64,9 @@
 
 /* Header Text Style */
 .header-name-text {
+  width: 100%;
+  height: 100%;
+  
   font-family: Kumar One;
   font-size: 2.125rem;
   text-align: left;
