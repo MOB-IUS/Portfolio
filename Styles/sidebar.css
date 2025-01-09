@@ -61,25 +61,29 @@
 }
 
 .sidebar-nav-option {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
   width: 80%;
   height: 2.1875rem;
-  
   position: relative;
   margin: 0; margin-left: 1rem;
-  
-  background-color: white;
 }
 
 .sidebar-text, .sidebar-text-selected {
   font-size: 1.125rem;
   font-weight: 300;
   text-align: left;
+  color: black;
   
-  background-color: white;
+  margin: auto; margin-left: 0;
 }
 
 .sidebar-text-selected {
   font-weight: 700;
+  font-size: 1.25rem;
+  color: #67aef6;
 }
 
 /* Sidebar Out Links Styles (Lower) */
