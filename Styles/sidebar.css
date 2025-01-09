@@ -71,9 +71,8 @@
 
 .sidebar-text, .sidebar-text-selected {
   font-size: 1.125rem;
-  font-weight: 300;
+  font-weight: 400;
   text-align: left;
-  color: black;
   
   margin: auto; margin-left: 0;
 }
@@ -81,7 +80,20 @@
 .sidebar-text-selected {
   font-weight: 700;
   font-size: 1.25rem;
+}
+
+.sidebar-text a {
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar-text-selected a {
+  text-decoration: none;
   color: #67aef6;
+}
+
+.sidebar-text a:hover {
+  color: grey;
 }
 
 /* Sidebar Out Links Styles (Lower) */
