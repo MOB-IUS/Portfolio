@@ -82,32 +82,6 @@
   font-weight: 700;
 }
 
-.sidebar-selected-underline-home, 
-.sidebar-selected-underline-projects, 
-.sidebar-selected-underline-about {
-  height: 0.35rem;
-  
-  position: absolute;
-  margin: 0; top: 1.3125rem; left: -0.1875rem;
-  
-  background-color: lightgray;
-}
-
-.sidebar-selected-underline-home {
-  width: 3.875rem;
-  opacity: 0;
-}
-
-.sidebar-selected-underline-projects {
-  width: 4.75rem;
-  opacity: 0;
-}
-
-.sidebar-selected-underline-about {
-  width: 3.675rem;
-  opacity: 0;
-}
-
 /* Sidebar Out Links Styles (Lower) */
 .sidebar-out-links {
   width: 100%;
