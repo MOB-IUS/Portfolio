@@ -24,7 +24,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   
-  width: 9.5rem;
+  width: 8.75rem;
   height: 100%;
 
   border-width: 0;
@@ -32,8 +32,6 @@
   border-style: solid;
   border-color: white;
   border-right-color: rgb(120, 120, 120);
-
-  background-color: white;
 }
 
 /* Sidebar Option Container Styles */
@@ -44,7 +42,7 @@
   
   width: 85%;
   height: 25rem;
-  padding-left: 0.9375rem; padding-top: 0.625rem;
+  margin-left: 0.9375rem; margin-top: 0.625rem;
 }
 
 /* Sidebar Navigation Styles (Upper) */
