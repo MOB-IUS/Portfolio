@@ -1,12 +1,11 @@
-body {
-  /*overflow-x: scroll;*/
-  margin: 0;
-  padding-top: 55px;
-
-  /*background-color: lightgray;*/
-}
-
 p {
   font-family: Halant;
   margin: 0;
+}
+
+/* Prevent text being selected */
+.prevent-selection {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
