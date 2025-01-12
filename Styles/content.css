@@ -1,0 +1,33 @@
+/* Content frame styles */
+.content-outer-frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  position: absolute;
+  top: 4.0625rem; bottom: 0;
+  left: 0; right: 0;
+  
+  pointer-events: none;
+  z-index: 1;
+}
+
+.content-inner-frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  width: 60.75rem;
+  height: 3000px;
+  margin: 0; margin-left: 8.75rem;
+}
+
+.content-grid {
+  width: 59rem;
+  height: 100%;
+
+  position: absolute;
+  margin-top: 0.5rem;
+  
+  background-color: lightblue;
+}
