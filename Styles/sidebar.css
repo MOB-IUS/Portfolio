@@ -144,3 +144,17 @@
   opacity: 0.35;
 }
 
+.sidebar-linkedin-icon-bg {
+  width: 1.25rem;
+  height: 1.25rem;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  
+  background-color: white;
+}
+
+.sidebar-linkedin-icon-bg:hover {
+  z-index: 25;
+}
+
