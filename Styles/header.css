@@ -67,10 +67,14 @@
   font-family: Kumar One;
   font-size: 2.125rem;
   text-align: left;
-  color: #5171f4;
   text-shadow: 0.0625rem 0.0625rem 0.125rem #0e1b78;
 
   margin: 0; margin-top: 0;
+}
+
+.header-name-text a {
+  text-decoration: none;
+  color: #5171f4;
 }
 
 .header-position-text {
