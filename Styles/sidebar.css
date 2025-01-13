@@ -9,6 +9,7 @@
   left: 0; right: 0;
   
   z-index: 20;
+  pointer-events: none;
 }
 
 .sidebar-inner-frame {
@@ -33,6 +34,7 @@
   border-color: white;
   border-right-color: rgb(120, 120, 120);
   
+  pointer-events: initial;
   background-color: white;
 }
 
