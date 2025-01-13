@@ -42,6 +42,17 @@
 .header-name {
   width: 42%;
   height: 100%;
+  
+  position: relative;
+}
+
+.header-name-return-link {
+  width: 100%;
+  height: 100%;
+  
+  display: block;
+  position: absolute;
+  top: 0;
 }
 
 .header-position {
@@ -68,13 +79,12 @@
   font-size: 2.125rem;
   text-align: left;
   text-shadow: 0.0625rem 0.0625rem 0.125rem #0e1b78;
+  color: #5171f4;
 
-  margin: 0; margin-top: 0;
+  margin: 0; margin-top: -0.125rem;
 }
 
 .header-name-text a {
-  text-decoration: none;
-  color: #5171f4;
 }
 
 .header-position-text {
@@ -86,5 +96,5 @@
   text-align: left;
   text-shadow: 0.02rem 0.02rem 0.035rem rgba(0, 0, 0, 0.76);
 
-  margin: 0; margin-top: 1.125rem;
+  margin: 0; margin-top: 1rem;
 }
