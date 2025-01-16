@@ -46,7 +46,7 @@
   
   width: 85%;
   height: 33rem;
-  margin-left: 0.9375rem; margin-top: 0.625rem;
+  margin: 0.625rem 0 0 0.9375rem;
 }
 
 /* Sidebar Navigation Styles (Upper) */
@@ -57,7 +57,7 @@
   
   width: 100%;
   height: 90%;
-  margin: 0; margin-top: 0.625rem;
+  margin-top: 0.625rem;
   
   background-color: white;
 }
@@ -70,7 +70,7 @@
   width: 80%;
   height: 2.1875rem;
   position: relative;
-  margin: 0; margin-left: 1rem;
+  margin-left: 1rem;
 }
 
   /* Options text styles when unselected and selected */
@@ -162,4 +162,3 @@
 .sidebar-linkedin-icon-bg:hover {
   z-index: 25;
 }
-

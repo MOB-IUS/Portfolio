@@ -81,7 +81,7 @@
   text-shadow: 0.0625rem 0.0625rem 0.125rem #0e1b78;
   color: #5171f4;
 
-  margin: 0; margin-top: -0.125rem;
+  margin-top: -0.125rem;
 }
 
 .header-name-text a {
@@ -96,5 +96,5 @@
   text-align: left;
   text-shadow: 0.02rem 0.02rem 0.035rem rgba(0, 0, 0, 0.76);
 
-  margin: 0; margin-top: 1rem;
+  margin-top: 1rem;
 }

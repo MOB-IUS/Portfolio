@@ -28,7 +28,7 @@
   text-align: center;
   color: white;
   
-  margin: 0; margin-top: -1rem;
+  margin-top: -1rem;
 }
 
 /* Home Welcome Message */
@@ -40,7 +40,7 @@
   flex-direction: column;
   gap: 0.25rem;
   
-  margin: 0; margin-left: auto; margin-right: auto; margin-top: 3rem;
+  margin: 3rem auto 0 auto;
 }
 
   /* Welcome Hello */
@@ -72,7 +72,5 @@
 
 .home-welcome-message {
   width: 100%;
-  
-  /*display: inline-block;*/
   font-size: 1rem;
 }
