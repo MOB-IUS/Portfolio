@@ -1,0 +1,32 @@
+/* Home Content Styles */
+/* Self-introduction Styles */
+.about-intro-container {
+  width: 85%;
+  height: auto;
+  
+  margin: 0 auto;
+}
+
+  /* Self-portrait */
+.img-self-portrait {
+  width: 13.5rem;
+  float: left;
+  margin: 1.5rem 2rem 1rem 0;
+
+}
+
+  /* Self-introduction Message */
+.about-intro-message-container {
+  width: 100%;
+  height: auto;
+  
+  margin: 0 auto;
+}
+
+.about-intro-message {
+  width: 100%;
+  min-width: 51.63rem;
+  font-size: 1rem;
+  
+  margin-top: 1.25rem;
+}
