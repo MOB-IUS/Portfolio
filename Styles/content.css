@@ -2,7 +2,7 @@
 .content-outer-frame {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: start;
   
   position: absolute;
   top: 4.3125rem; bottom: 0;
@@ -23,4 +23,9 @@
 
 .content-sidebar-excluder {
   min-width: 8.75rem;
+}
+
+.content-null-box {
+  min-width: 0;
+  width: calc(50% - 34.75rem);
 }
