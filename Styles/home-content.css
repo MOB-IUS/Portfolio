@@ -23,11 +23,12 @@
 }
 
 .home-banner-text p {
-  font-size: 9rem;
+  font-size: clamp(1rem, 13.5vw, 9rem);
   font-weight: 700;
   text-align: center;
   color: white;
   
+  margin: auto;
   margin-top: -1rem;
 }
 

@@ -23,9 +23,13 @@
 
 .content-sidebar-excluder {
   min-width: 8.75rem;
+  
+  opacity: 0;
 }
 
 .content-null-box {
   min-width: 0;
   width: calc(50% - 34.75rem);
+
+  opacity: 0;
 }
