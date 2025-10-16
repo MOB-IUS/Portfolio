@@ -33,11 +33,6 @@
   color: white;
 }
 
-.home-banner-text-vertindent {
-  height: calc((100% - clamp(1rem, 13.5vw, 9rem)) / 2);
-  opacity: 0;
-}
-
 /* Home Welcome Message */
 .home-welcome-container {
   width: 85%;
