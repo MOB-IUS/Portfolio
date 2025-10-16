@@ -2,42 +2,28 @@
 /* Projects Container */
 .projects-container {
   width: 85%;
-  height: 60rem;
+  height: auto;
   margin: 1.5rem auto 0 auto;
 
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1rem;
+  justify-content: center;
 }
 
 .projects-general-container {
-  width: 100%;
-  height: 12rem;
+  min-height: 12rem;
   margin-top: 1.5rem;
-  
-  display: flex;
-  flex-direction: row;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border: 1px solid purple;
   background: lightblue;
 }
 
-  /* Image Style for Project Intro */
-/* .img-projects {
-  
-} */
-
-/* Text Style for Project Intro */
-/* .projects-intro {
-  
+.projects-general-container p {
+  font-size: 2rem;
+  text-align: center;
 }
-
-.projects-intro-title {
-  
-}
-
-.projects-intro-description {
-  
-}
-
-.projects-intro-link {
-
-} */
